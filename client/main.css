@@ -1,0 +1,253 @@
+body {
+  margin: 0; 
+  padding: 0;
+  font-family: sans-serif; 
+  background-color: darkblue;
+}
+
+.head  {
+  height: 50px; 
+  width: 500px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  background-color: blue; 
+  color: yellow; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center; 
+  border-radius: 15px;
+} 
+
+.Q1box {
+  height: 500px; 
+  width: 100%;  
+  padding-top: 150px;
+  display: flex; 
+  justify-content: center; 
+  /* background-image: url(https://www.theflagshop.co.uk/pub/media/catalog/product/cache/1aa45e34d8351bef7860daeb50e7952c/b/a/barbados-budget-table-std.jpg); */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-color: darkblue;
+  border: 3px solid yellow;  
+  ;
+  
+}  
+/* .CText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+}  */ 
+
+.card1 {
+  height: 150px; 
+  width: 220px; 
+  border: 2px solid blue; 
+} 
+.buttonh {
+  padding-top: 50px; 
+  padding-left: 50px;
+} 
+#title {
+  background-color: blue; 
+  color: yellow;
+} 
+#foot {
+  background-color: blue;
+}
+
+.modal-body1 {
+  background-color: blue; 
+  color: yellow; 
+  font-size: 20px;
+}
+
+.card2 {
+  height: 150px; 
+  width: 220px;  
+  border: 2px solid yellow;
+} 
+.buttonh2 {
+  padding-top: 50px; 
+  padding-left: 50px;
+}  
+#header2 {
+  background-color: yellow; 
+  color: blue; 
+  /* font-size: 20px; */
+  font-weight: 600;
+}
+.modal-body2 {
+  background-color: yellow; 
+  color: blue; 
+  font-size: 16px; 
+} 
+.modal-footer2 {
+  background-color: yellow;
+}
+
+.modal-footer {
+  background-color: yellow;
+}
+
+.card3 {
+  height: 150px; 
+  width: 220px;  
+  border: 2px solid blue;
+} 
+.buttonh3 {
+  padding-top: 50px; 
+  padding-left: 50px;
+} 
+
+
+.btn1 {
+  background-color: blue; 
+  color: white; 
+  height: 40px; 
+  width: 100px; 
+  border-radius: 35px;
+} 
+
+.btn2 {
+  background-color: yellow; 
+  color: white; 
+  height: 40px; 
+  width: 100px; 
+  border-radius: 35px;
+}  
+
+.btn3 {
+  background-color: blue; 
+  color: white; 
+  height: 40px; 
+  width: 100px; 
+  border-radius: 35px;
+} 
+
+.Q2box { 
+  padding-top: 60px;
+  height: 800px;  
+  width: 100%;
+  display: flex; 
+  text-align: center; 
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  background-color: darkblue; 
+  border: 5px solid yellow;
+
+} 
+
+.MSection {  
+ height: 70px; 
+ width: 320px;  
+ font-size: 40px; 
+ padding-top: 25px;
+ background-color: darkblue; 
+ border: yellow 2px solid;
+ color: yellow; 
+ text-align: center; 
+ margin-left: 185px;
+ 
+}
+
+
+#form { 
+  height: 500px;
+  width: 700px; 
+  background-color: darkblue; 
+  border: yellow 2px solid;  
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}  
+
+.row1 {
+  padding-top: 20px; 
+  text-align: right; 
+  padding-right: 15px; 
+  font-size: 20px; 
+  font-weight: 800; 
+  color: yellow;
+} 
+
+.row2 {
+  font-weight: 300; 
+  color: yellow; 
+}  
+
+.row3 { 
+  color: yellow;
+  
+} 
+#box1 {
+  height: 60px; 
+  width: 70px; 
+  background-color: white;
+} 
+#box2 {
+  height: 60px; 
+  width: 70px; 
+  background-color: white;
+} 
+
+
+#inp {
+  height: 60px; 
+  width: 350px; 
+  font-size: 20px; 
+  font-weight: 600; 
+  color: blue;
+  text-align: center;
+}  
+
+.row4 {
+  padding-top: 15px;
+}
+
+.row5 {
+  padding-top: 20px;
+} 
+
+#ans-but {
+  height: 60px; 
+  width: 350px; 
+  font-size: 20px; 
+  font-weight: 600; 
+  background-color: blue; 
+  color: white;
+} 
+
+#play-again {
+  height: 60px; 
+  width: 350px; 
+  font-size: 20px; 
+  font-weight: 600; 
+  background-color: blue; 
+  color: white;
+}
+
+#q1-button {
+  margin-left: 150px; 
+  border-radius: 20px;
+} 
+#question2-button {
+  margin-left: 170px; 
+  border-radius: 20px;
+} 
+#question3-button {
+  margin-left: 120px;
+}
+
+#qs1-score {
+  margin-right: 120px;
+} 
+#qs2-score {
+  padding-left: 370px; 
+} 
+#qs3-score{
+  padding-right: 140px;
+}
+#btn-close {
+  margin-top: 20px;
+}
